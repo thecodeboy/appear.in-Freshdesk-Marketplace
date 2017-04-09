@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Freshdesk App Project
 
 Congratulations on creating your App Project! Feel free to replace this text with your project description.
@@ -23,3 +24,7 @@ More details on the structure and files:
 1. Unsupported files inside `assets/` will not be packaged. Supported file extensions include: `.jpg`, `.png`, `.gif`, `.css` and `.js`.
 2. `iparam_en.yml` has commented sample configuration. `_en` in the configuration refers to English language. If you need to support installation-configuration in multiple languages, say Italian in addition to English, you need to have a `iparam_it.yml` configuration. English is the default fallback language.
 3. `iparam_test_data.yml` is the installation parameter that is used in Local Testing.
+=======
+# appear.in-Freshdesk-Marketplace
+A plugin for the Freshdesk platform.
+>>>>>>> 404445f31de88db91d73b1018abba00e82268135
