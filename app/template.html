@@ -1,3 +1,4 @@
+<script src="{{ 'button.js' | asset_url }}"> </script>
 <div class="widget">
   <h3>Video Call</h3>
   <div class="content">
@@ -5,6 +6,8 @@
 	<div class="app-box">
       <p id="apptext" class="app-text text-center"></p>
       <p id="appear" class="app-text text-center"></p>
+      <center><button type="button" id="green" class="btn btn-success" onclick="return function(){document.getElementById('apptext').style.display = 'block';document.getElementById('appear').style.display = 'block';document.getElementById('green').style.display = 'none'; return true;}();">Generate new video call link</button></center>
+
     </div>
 
   </div>
